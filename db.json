@@ -1,0 +1,23 @@
+{
+  "enquiry": [
+    {
+      "firstName": "shaikh",
+      "lastName": "adnan",
+      "email": "adnan@gmail.com",
+      "mobile": "9898989898",
+      "weight": 64,
+      "height": 1.4,
+      "bmi": 0.5102040816326532,
+      "bmiResults": "",
+      "gender": "Male",
+      "requireTrainer": "Yes",
+      "package": "Quarterly",
+      "important": [
+        "Toxic Fat Reduction"
+      ],
+      "haveGymBefore": "Yes",
+      "enquiryDate": "2023-04-03T18:30:00.000Z",
+      "id": 1
+    }
+  ]
+}
