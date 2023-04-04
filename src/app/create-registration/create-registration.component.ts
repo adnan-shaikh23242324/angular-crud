@@ -4,6 +4,8 @@ import { ApiService } from '../services/api.service';
 import { NgToastService } from 'ng-angular-popup';
 import { ActivatedRoute, Router } from '@angular/router';
 import { User } from '../models/user.model';
+import { DateAdapter } from '@angular/material/core';
+
 
 @Component({
   selector: 'app-create-registration',
@@ -25,7 +27,8 @@ export class CreateRegistrationComponent implements OnInit {
   public userIdToUpdate!: number;
   public isUpdateActive: boolean = false;
 
-  constructor(private fb: FormBuilder, private activatedRoute: ActivatedRoute, private router: Router, private api: ApiService, private toastservice: NgToastService) {
+  constructor(private fb: FormBuilder,private dateAdapter: DateAdapter<Date>, private activatedRoute: ActivatedRoute, private router: Router, private api: ApiService, private toastservice: NgToastService) {
+    this.dateAdapter.setLocale('en-GB'); //dd/MM/yyyy
 
   }
   ngOnInit(): void {
