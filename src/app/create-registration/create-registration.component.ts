@@ -13,7 +13,7 @@ import { DateAdapter } from '@angular/material/core';
   styleUrls: ['./create-registration.component.scss']
 })
 export class CreateRegistrationComponent implements OnInit {
-[x: string]: any;
+  [x: string]: any;
   public packages: string[] = ["Monthly", "Quarterly", "Yearly"];
   public genders: string[] = ["Male", "Female"];
   public importantList: string[] = [
@@ -27,16 +27,16 @@ export class CreateRegistrationComponent implements OnInit {
   public userIdToUpdate!: number;
   public isUpdateActive: boolean = false;
 
-  constructor(private fb: FormBuilder,private dateAdapter: DateAdapter<Date>, private activatedRoute: ActivatedRoute, private router: Router, private api: ApiService, private toastservice: NgToastService) {
+  constructor(private fb: FormBuilder, private dateAdapter: DateAdapter<Date>, private activatedRoute: ActivatedRoute, private router: Router, private api: ApiService, private toastservice: NgToastService) {
     this.dateAdapter.setLocale('en-GB'); //dd/MM/yyyy
 
   }
   ngOnInit(): void {
     this.registerForm = this.fb.group({
       firstName: ['', Validators.required],
-      lastName: ['',Validators.required],
+      lastName: ['', Validators.required],
       email: ['', [Validators.required, Validators.email]],
-      mobile: ['', [Validators.required, Validators.minLength(10)]],
+      mobile: ['', [Validators.required, Validators.minLength(10),Validators.pattern('^([+-]{0,1}[ ]{0,1}[(]{0,1}[0-9]{1,4}[)]{0,1}[ ]{0,1}){0,4}$')]],
       weight: [''],
       height: [''],
       bmi: [''],
@@ -72,6 +72,7 @@ export class CreateRegistrationComponent implements OnInit {
 
         })
     }
+  
 
   }
   update() {
