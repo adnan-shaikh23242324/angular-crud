@@ -26,6 +26,9 @@ import { HttpClientModule } from '@angular/common/http';
 import {MatCardModule} from '@angular/material/card';
 import {MatListModule} from '@angular/material/list';
 import {MatChipsModule} from '@angular/material/chips';
+import { LoginComponent } from './login/login.component';
+import { SignupComponent } from './signup/signup.component';
+import { HeaderComponent } from './header/header.component';
 
 
 
@@ -35,7 +38,10 @@ import {MatChipsModule} from '@angular/material/chips';
     AppComponent,
     CreateRegistrationComponent,
     RegistrationListComponent,
-    UserDetailComponent
+    UserDetailComponent,
+    LoginComponent,
+    SignupComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
