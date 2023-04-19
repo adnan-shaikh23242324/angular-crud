@@ -6,13 +6,13 @@
                     <h1>Gym Registration Login</h1>
                     <h6>please enter email & password</h6>
                 </div>
-                <form [formGroup]="loginForm" (ngSubmit)="login()">
+                <form [formGroup]="loginForm" (ngSubmit)="login(loginForm)">
 
                     <div class="mb-3">
                         <label for="exampleInputEmail1" class="form-label">Email address</label>
 
                         <input formControlName="email" type="email" class="form-control" id="exampleInputEmail1"
-                            aria-describedby="emailHelp">
+                            aria-describedby="emailHelp" required>
                         <mat-error *ngIf="loginForm.get('email')?.hasError('required')">Email is required*</mat-error>
                     </div>
                     <div class="mb-3">
@@ -23,10 +23,38 @@
                         <mat-error *ngIf="loginForm.get('password')?.hasError('required')">Password is
                             required*</mat-error>
                     </div>
-                    <button type="submit" class="btn btn-primary">Login</button>
+                    <div class="container">
+                        <div class="vertical-center">
+                            <button type="submit" class="btn btn-primary">Login</button>
+                        </div>
+                    </div>
                 </form>
-                <a style="color: #fff;margin-top: 10px;" routerLink="/signup">New User? Click to Signup!!</a>
+                <a style="color: #fff;margin-top: 10px;" routerLink="/signup">New User? Click to Signup!</a>
             </div>
         </div>
     </div>
 </div>
+<!-- second form  -->
+<!-- <form action="action_page.php" method="post">
+    <div class="imgcontainer">
+      <img src="img_avatar2.png" alt="Avatar" class="avatar">
+    </div>
+  
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+  
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+  
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+  
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form> -->

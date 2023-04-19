@@ -3,323 +3,43 @@
     {
       "firstName": "shaikh",
       "lastName": "adnan",
-      "email": "adnan@gmail.com",
-      "mobile": "9898989898",
-      "weight": 64,
+      "email": "shaikhadnan@gmail.com",
+      "mobile": "7574032288",
+      "weight": 60,
+      "height": 1.5,
+      "bmi": 0.4444444444444444,
+      "bmiResults": "",
+      "gender": "Male",
+      "requireTrainer": "Yes",
+      "package": "Quarterly",
+      "important": [
+        "Toxic Fat Reduction",
+        "Energy and Endurance",
+        "Building Lean Muscle"
+      ],
+      "haveGymBefore": "Yes",
+      "enquiryDate": "2023-04-17T18:30:00.000Z",
+      "id": 1
+    },
+    {
+      "firstName": "parmar",
+      "lastName": "shah",
+      "email": "ps@gmail.com",
+      "mobile": "7576756762",
+      "weight": 55,
       "height": 1.4,
       "bmi": 0.5102040816326532,
       "bmiResults": "",
       "gender": "Male",
       "requireTrainer": "Yes",
-      "package": "Quarterly",
-      "important": [
-        "Toxic Fat Reduction"
-      ],
-      "haveGymBefore": "Yes",
-      "enquiryDate": "2023-04-03T18:30:00.000Z",
-      "id": 1
-    },
-    {
-      "firstName": "King ",
-      "lastName": "Khan",
-      "email": "king@gmail.com",
-      "mobile": "9345665432",
-      "weight": 60,
-      "height": 1.6,
-      "bmi": 0.39062499999999994,
-      "gender": "Male",
-      "requireTrainer": "Yes",
       "package": "Monthly",
       "important": [
-        "Healthier Digestive System"
-      ],
-      "haveGymBefore": "Yes",
-      "enquiryDate": "2023-03-31T18:30:00.000Z",
-      "id": 2
-    },
-    {
-      "firstName": "shaikh",
-      "lastName": "adnan",
-      "email": "shaikh@gmail.com",
-      "mobile": "7575474471",
-      "weight": "",
-      "height": "",
-      "bmi": "",
-      "bmiResults": "",
-      "gender": "",
-      "requireTrainer": "",
-      "package": "",
-      "important": "",
-      "haveGymBefore": "",
-      "enquiryDate": "2023-04-03T18:30:00.000Z",
-      "id": 3
-    },
-    {
-      "firstName": "shah",
-      "lastName": "king",
-      "email": "shah@gmail.com",
-      "mobile": "7574072345",
-      "weight": 67,
-      "height": 1.7,
-      "bmi": 0.34602076124567477,
-      "bmiResults": "",
-      "gender": "Male",
-      "requireTrainer": "Yes",
-      "package": "Quarterly",
-      "important": [
-        "Energy and Endurance",
-        "Building Lean Muscle",
-        "Healthier Digestive System"
-      ],
-      "haveGymBefore": "Yes",
-      "enquiryDate": "2023-04-01T18:30:00.000Z",
-      "id": 4
-    },
-    {
-      "firstName": "fist",
-      "lastName": "king",
-      "email": "fs@gmail.com",
-      "mobile": "4564564561",
-      "weight": 67,
-      "height": 1.3,
-      "bmi": 0.5917159763313609,
-      "bmiResults": "",
-      "gender": "Male",
-      "requireTrainer": "Yes",
-      "package": "Quarterly",
-      "important": [
+        "Healthier Digestive System",
         "Sugar Craving Body"
       ],
       "haveGymBefore": "Yes",
-      "enquiryDate": "2023-04-02T18:30:00.000Z",
-      "id": 5
-    },
-    {
-      "firstName": "ass",
-      "lastName": "ass",
-      "email": "ass@gmail.com",
-      "mobile": "7576757675",
-      "weight": 60,
-      "height": 2,
-      "bmi": 0.75,
-      "bmiResults": "",
-      "gender": "Male",
-      "requireTrainer": "Yes",
-      "package": "Yearly",
-      "important": [
-        "Energy and Endurance"
-      ],
-      "haveGymBefore": "Yes",
-      "enquiryDate": "2023-04-01T18:30:00.000Z",
-      "id": 6
-    },
-    {
-      "firstName": "zzzz",
-      "lastName": "zzz",
-      "email": "zzz@gmail.com",
-      "mobile": "7574032281",
-      "weight": "",
-      "height": "",
-      "bmi": "",
-      "bmiResults": "",
-      "gender": "",
-      "requireTrainer": "",
-      "package": "",
-      "important": "",
-      "haveGymBefore": "",
-      "enquiryDate": "2023-04-04T18:30:00.000Z",
-      "id": 7
-    },
-    {
-      "firstName": "shaikh",
-      "lastName": "adnan",
-      "email": "shaikhadnan@gmail.com",
-      "mobile": "7654765454",
-      "weight": "",
-      "height": "",
-      "bmi": "",
-      "bmiResults": "",
-      "gender": "",
-      "requireTrainer": "",
-      "package": "",
-      "important": "",
-      "haveGymBefore": "",
-      "enquiryDate": "2023-04-12T18:30:00.000Z",
-      "id": 8
-    },
-    {
-      "fullname": "",
-      "email": "",
-      "password": "",
-      "mobile": "",
-      "id": 9
-    },
-    {
-      "fullname": null,
-      "email": null,
-      "password": null,
-      "mobile": null,
-      "id": 10
-    },
-    {
-      "fullname": null,
-      "email": null,
-      "password": null,
-      "mobile": null,
-      "id": 11
-    },
-    {
-      "fullname": null,
-      "email": null,
-      "password": null,
-      "mobile": null,
-      "id": 12
-    },
-    {
-      "fullname": null,
-      "email": null,
-      "password": null,
-      "mobile": null,
-      "id": 13
-    },
-    {
-      "fullname": null,
-      "email": null,
-      "password": null,
-      "mobile": null,
-      "id": 14
-    },
-    {
-      "fullname": null,
-      "email": null,
-      "password": null,
-      "mobile": null,
-      "id": 15
-    },
-    {
-      "fullname": null,
-      "email": null,
-      "password": null,
-      "mobile": null,
-      "id": 16
-    },
-    {
-      "fullname": null,
-      "email": null,
-      "password": null,
-      "mobile": null,
-      "id": 17
-    },
-    {
-      "fullname": null,
-      "email": null,
-      "password": null,
-      "mobile": null,
-      "id": 18
-    },
-    {
-      "fullname": null,
-      "email": null,
-      "password": null,
-      "mobile": null,
-      "id": 19
-    },
-    {
-      "fullname": null,
-      "email": null,
-      "password": null,
-      "mobile": null,
-      "id": 20
-    },
-    {
-      "fullname": null,
-      "email": null,
-      "password": null,
-      "mobile": null,
-      "id": 21
-    },
-    {
-      "fullname": null,
-      "email": null,
-      "password": null,
-      "mobile": null,
-      "id": 22
-    },
-    {
-      "fullname": null,
-      "email": null,
-      "password": null,
-      "mobile": null,
-      "id": 23
-    },
-    {
-      "fullname": null,
-      "email": null,
-      "password": null,
-      "mobile": null,
-      "id": 24
-    },
-    {
-      "fullname": "shaikh adnan ",
-      "email": "addy@gmail.com",
-      "password": "addy4321",
-      "mobile": 7272727227,
-      "id": 25
-    },
-    {
-      "email": "addy@gmail.com",
-      "password": "addy4321",
-      "id": 26
-    },
-    {
-      "email": "addy@gmail.com",
-      "password": "addy4321",
-      "id": 27
-    },
-    {
-      "email": "addy@gmail.com",
-      "password": "addy4321",
-      "id": 28
-    },
-    {
-      "email": "addy@gmail.com",
-      "password": "addy4321",
-      "id": 29
-    },
-    {
-      "email": "addy@gmail.com",
-      "password": "addy4321",
-      "id": 30
-    },
-    {
-      "email": "addy@gmail.com",
-      "password": "addy4321",
-      "id": 31
-    },
-    {
-      "email": "addy@gmail.com",
-      "password": "addy4321",
-      "id": 32
-    },
-    {
-      "email": "addy@gmail.com",
-      "password": "addy43",
-      "id": 33
-    },
-    {
-      "email": "addy@gmail.com",
-      "password": "add",
-      "id": 34
-    },
-    {
-      "email": "shah@gmail.com",
-      "password": "12121212",
-      "id": 35
-    },
-    {
-      "email": "addy@gmail.com",
-      "password": "addy4321",
-      "id": 36
+      "enquiryDate": "2023-04-17T18:30:00.000Z",
+      "id": 2
     }
   ],
   "signupusers": [
@@ -371,6 +91,100 @@
       "password": "",
       "mobile": "",
       "id": 7
+    },
+    {
+      "email": "shah@gmail.com",
+      "password": "1212`1212",
+      "id": 8
+    },
+    {
+      "fullname": "addy",
+      "email": "addu@gmail.com",
+      "password": "12121212",
+      "mobile": 7574343252,
+      "id": 9
+    },
+    {
+      "email": "addu@gmail.com",
+      "password": "12121212",
+      "id": 10
+    },
+    {
+      "email": "shah@gmail.com",
+      "password": "12121212",
+      "id": 11
+    },
+    {
+      "email": "addy@gmail.com",
+      "password": "12121212",
+      "id": 12
+    },
+    {
+      "email": "shah@gmail.com",
+      "password": "12121212",
+      "id": 13
+    },
+    {
+      "email": "addy@gmail.com",
+      "password": "1212121212",
+      "id": 14
+    },
+    {
+      "email": "shah@gmail.com",
+      "password": "12121212",
+      "id": 15
+    },
+    {
+      "email": "addu@gmail.com",
+      "password": "1212121212212121212",
+      "id": 16
+    },
+    {
+      "email": "shah@gmail.com",
+      "password": "12121212",
+      "id": 17
+    },
+    {
+      "email": "shah@gmail.com",
+      "password": "12121212",
+      "id": 18
+    },
+    {
+      "email": "shah@gmail.com",
+      "password": "12121212",
+      "id": 19
+    },
+    {
+      "email": "addy@gmail.com",
+      "password": "Wdna4321",
+      "id": 20
+    },
+    {
+      "email": "shah@gmail.com",
+      "password": "12121212",
+      "id": 21
+    },
+    {
+      "email": "shah@gmail.com",
+      "password": "12121212",
+      "id": 22
+    },
+    {
+      "fullname": "shah",
+      "email": "gs@gmail.com",
+      "password": "asasasasas",
+      "mobile": 6577567777,
+      "id": 23
+    },
+    {
+      "email": "shah@gmail.com",
+      "password": "12121212",
+      "id": 24
+    },
+    {
+      "email": "shah@gmail.com",
+      "password": "121212212122",
+      "id": 25
     }
   ],
   "profile": {

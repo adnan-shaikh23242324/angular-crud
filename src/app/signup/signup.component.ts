@@ -4,7 +4,7 @@ import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
 import { NgToastService } from 'ng-angular-popup';
 import { User } from '../models/user.model';
-import { ApiService } from '../services/api.service';
+import { SignupService } from '../services/signup.service';
 
 @Component({
   selector: 'app-signup',
@@ -14,7 +14,7 @@ import { ApiService } from '../services/api.service';
 export class SignupComponent implements OnInit {
 
   public signupForm !: FormGroup;
-  constructor(private formBuilder: FormBuilder, private http: HttpClient, private router: Router, private toastservice: NgToastService, private api: ApiService) { }
+  constructor(private formBuilder: FormBuilder, private http: HttpClient, private router: Router, private toastservice: NgToastService, private api: SignupService) { }
   ngOnInit(): void {
     this.signupForm = this.formBuilder.group({
       fullname: ['',Validators.required],
@@ -56,7 +56,7 @@ export class SignupComponent implements OnInit {
 
         })
     }else{
-      this.toastservice.success({ detail: "Failed", summary: "Enter  Email & Address", duration: 3000 });
+      this.toastservice.success({ detail: "Failed", summary: "Enter Mandatory Fields", duration: 3000 });
 
     }
 

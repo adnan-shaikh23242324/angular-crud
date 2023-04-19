@@ -1,5 +1,5 @@
 export class Login{
-    emailaddress!:any;
+    emailaddress!:string;
     password!:number
  
  }

@@ -1,7 +1,7 @@
 export class Signup{
    fullname!:string;
    mobileno!:number;
-   emailaddress!:any;
+   emailaddress!:string;
    password!:number
 
 }

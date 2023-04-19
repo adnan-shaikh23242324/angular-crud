@@ -12,23 +12,23 @@ export class SignupService {
   postRegistration(registerObj: Signup) {
     return this.http.post<Signup>(`${this.baseUrl}`, registerObj)
   }
-  getRegisteredUser() {
-    return this.http.get<Signup[]>(`${this.baseUrl}`)
+  // getRegisteredUser() {
+  //   return this.http.get<Signup[]>(`${this.baseUrl}`)
 
-  }
+  // }
 
-  updateRegisteredUser(registerObj:Signup,id:number) {
-    return this.http.put<Signup>(`${this.baseUrl}/${id}`,registerObj);
+  // updateRegisteredUser(registerObj:Signup,id:number) {
+  //   return this.http.put<Signup>(`${this.baseUrl}/${id}`,registerObj);
 
-  }
+  // }
 
-  deleteRegistered(id:number) {
-    return this.http.delete<Signup>(`${this.baseUrl}/${id}`)
+  // deleteRegistered(id:number) {
+  //   return this.http.delete<Signup>(`${this.baseUrl}/${id}`)
 
-  }
+  // }
 
-  getRegisteredUserTd(id:number) {
-    return this.http.get<Signup>(`${this.baseUrl}/${id}`)
+  // getRegisteredUserTd(id:number) {
+  //   return this.http.get<Signup>(`${this.baseUrl}/${id}`)
 
-  }
+  // }
 }
